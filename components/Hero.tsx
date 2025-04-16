@@ -17,7 +17,7 @@ const Hero = () => {
         <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-100 sm:text-7xl">
           Free and Open-Source Next.js Template for Startup & SaaS
         </h1>
-        <p className="mt-8 text-lg w-3xl ml-55 flex font-medium text-pretty text-gray-500 sm:text-xl/8">
+        <p className="mt-8 text-lg w-3xl ml-70 flex font-medium text-pretty text-gray-500 sm:text-xl/8">
           Startup is free Next.js template for startup and SaaS business website
           comes with all the essential pages, components, and section you need
           to launch a complete business website, built-with Next 13.x and

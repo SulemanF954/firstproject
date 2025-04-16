@@ -1,8 +1,9 @@
 "use client";
 import { FaAngleDown } from "react-icons/fa";
 import { MdOutlineLightMode } from "react-icons/md";
+import Link from "next/link";
 
-const NavBar: React.FC = () => { 
+const NavBar: React.FC = () => {
   const handleButtonClickIn = () => {
     alert("Sign In button clicked!");
   };
@@ -16,15 +17,23 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center">
+    <nav className="text-white flex justify-between border-b-blue-600 items-center fixed top-0 left-0 bg-neutral-800 right-0 shadow-lg p-4 z-10">
       <div className="flex items-center space-x-2">
-        <img src="/Image/favicon.png" alt="Logo" className="h-8 w-8 bg-black cursor-pointer" />
+        <img
+          src="/Image/favicon.png"
+          alt="Logo"
+          className="h-8 w-8 bg-black cursor-pointer"
+        />
         <span className="text-xl font-bold cursor-pointer">StockUp</span>
         <ul className="flex px-20 space-x-6">
-          <li className=" hover:text-amber-100 cursor-pointer px-4">Home</li>
+          <li className="hover:text-amber-100 cursor-pointer px-4">
+            <Link href="/Home">Home</Link>
+          </li>
           <li className=" hover:text-amber-100 cursor-pointer px-4">About</li>
           <li className=" hover:text-amber-500 cursor-pointer px-4">Blog</li>
-          <li className=" hover:text-amber-100 cursor-pointer px-4 ">Support</li>
+          <li className=" hover:text-amber-100 cursor-pointer px-4 ">
+            Support
+          </li>
           <div className="flex cursor-pointer">
             <li className=" hover:text-amber-100 px-3">Pages</li>
             <FaAngleDown className="text-amber-100 pt-1 text-lg" />
