@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <div className="flex justify-center items-center mt-8 mx-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
-          <div className="bg-transparent p-4 rounded ">
+          <div className="bg-transparent p-4 rounded hover:shadow-lg transition-shadow duration-300">
             <MdDashboard className="w-10 h-10 p-1 rounded bg-blue-100 mb-4 text-blue-500 text-5xl" />
             <h3 className="text-lg font-semibold text-white">
               Crafted For Startups

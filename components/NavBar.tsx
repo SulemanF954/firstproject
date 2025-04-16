@@ -17,7 +17,7 @@ const NavBar: React.FC = () => {
   };
 
   return (
-    <nav className="text-white flex justify-between items-center fixed top-0 left-0 right-0 shadow-lg p-4 z-10">
+    <nav className="text-white flex justify-between border-b-blue-600 items-center fixed top-0 left-0 bg-neutral-800 right-0 shadow-lg p-4 z-10">
       <div className="flex items-center space-x-2">
         <img
           src="/Image/favicon.png"
