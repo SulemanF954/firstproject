@@ -6,13 +6,15 @@ import { TbGridDots } from "react-icons/tb";
 import { SiVorondesign } from "react-icons/si";
 import { GrResources } from "react-icons/gr";
 import { FaCopy } from "react-icons/fa";
+import Main from "@/components/Main";
 
 export default function Home() {
   return (
     <div className="bg-[url('/Image/image.jpg')] min-h-screen sm:p-2 bg-cover bg-center bg-no-repeat bg-fixed font-[var(--font-geist-sans)]">
       <NavBar />
       <Hero />
-      <div className="flex justify-center items-center">
+      <Main />
+      {/* <div className="flex justify-center items-center">
         <div className="text-center bg-transparent p-2 rounded">
           <h2 className="text-2xl text-amber-50 font-bold mb-4">
             Main Features
@@ -96,7 +98,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
