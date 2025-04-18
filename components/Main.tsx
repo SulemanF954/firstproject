@@ -63,12 +63,14 @@ const Main = () => {
       </div>
       <div className="flex justify-center items-center mt-8 mx-8">
         <div className="grid grid-cols-3 md:grid-col-1 gap-4 mt-4">
-          {cardData.map((items) => (
-            <Card
+          {cardData.map((items, index) => (
+            <div key={index}>
+              <Card
               Icon={items.Icon}
               description={items.description}
               title={items.title}
             />
+            </div>
           ))}
         </div>
       </div>
