@@ -1,10 +1,5 @@
 import React from "react";
-import { MdFormatBold } from "react-icons/md";
-import { FaUikit } from "react-icons/fa";
-import { SiGridsome } from "react-icons/si";
-import { FaLine } from "react-icons/fa";
-import { MdOutlineGraphicEq } from "react-icons/md";
-import { MdAdminPanelSettings } from "react-icons/md";
+
 
 export interface LineProps {
   Icon: React.ElementType;
