@@ -5,6 +5,7 @@ import Ready from "@/components/Ready";
 import LineSet from "@/components/LineSet";
 import { LineSetData } from "@/components/data";
 import Levelup from "@/components/Levelup";
+import PricingCard from "@/components/PricingCard";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         </div>
       </div>
       <Levelup />
+      <PricingCard />
     </div>
   );
 }
