@@ -6,7 +6,7 @@ import { IoSettings } from "react-icons/io5";
 import { MdDashboard } from "react-icons/md";
 import { SiVorondesign } from "react-icons/si";
 import { TbGridDots } from "react-icons/tb";
-import Card, { CardProps } from "./card";
+import Card, { CardProps } from "./Card";
 
 const cardData: CardProps[] = [
   {
