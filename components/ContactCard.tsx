@@ -16,7 +16,6 @@ const ContactCard = () => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="grid grid-cols-1 lg:grid-cols-6 gap-4 m-4 lg:m-7">
-        {/* Left Section (Form) */}
         <div className="lg:col-span-4 bg-gray-900 p-6 sm:p-8">
           <h1 className="text-gray-100 font-bold font-sans text-xl sm:text-2xl">
             Need Help? Open a Ticket
@@ -80,8 +79,6 @@ const ContactCard = () => {
             Submit Ticket
           </button>
         </div>
-
-        {/* Right Section (Subscribe) */}
         <div className="lg:col-span-2 bg-gray-900 p-6 sm:p-8 flex flex-col justify-between">
           <div>
             <h1 className="text-gray-100 font-bold font-sans text-xl sm:text-2xl">
