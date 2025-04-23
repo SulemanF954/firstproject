@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center px-4 py-20 text-center sm:px-6 lg:px-8 bg-gray-900">
+    <div className="flex flex-col items-center justify-center px-4 py-20 sm:mt-4 text-center sm:px-6 lg:px-8 bg-gray-900">
       <h1 className="text-3xl sm:text-2xl lg:text-6xl font-bold tracking-tight text-white max-w-4xl">
         Free and Open-Source Next.js Template for Startup & SaaS
       </h1>
