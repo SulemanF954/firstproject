@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { FaAngleDown, FaBars, FaTimes } from "react-icons/fa";
 import { MdOutlineLightMode } from "react-icons/md";
-import Link from "next/link";
 
 const NavBar: React.FC = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -74,9 +73,9 @@ const NavBar: React.FC = () => {
             >
               <path
                 stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M1 1h15M1 7h15M1 13h15"
               />
             </svg>
