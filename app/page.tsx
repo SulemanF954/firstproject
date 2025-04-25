@@ -1,3 +1,4 @@
+"use client";
 import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import Main from "@/components/Main";
@@ -6,8 +7,10 @@ import LineSet from "@/components/LineSet";
 import { LineSetData } from "@/components/data";
 import Levelup from "@/components/Levelup";
 import PricingCard from "@/components/PricingCard";
+import ContactCard from "@/components/ContactCard";
 
 export default function Home() {
+  
   return (
     <div className="bg-[url('/Image/image.jpg')] min-h-screen sm:p-2 bg-cover bg-center bg-no-repeat bg-fixed font-[var(--font-geist-sans)]">
       <NavBar />
@@ -25,6 +28,7 @@ export default function Home() {
       </div>
       <Levelup />
       <PricingCard />
+      <ContactCard /> 
     </div>
   );
 }
