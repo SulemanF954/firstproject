@@ -14,8 +14,8 @@ export default function Home() {
       <Hero />
       <Main />
       <Ready />
-      <div className="flex justify-center">
-        <div className="flex justify-center items-center rounded-2xl text-gray-400 h-20 w-250 bg-gray-900 gap-10">
+      <div className="flex justify-center px-4">
+        <div className="flex flex-col sm:flex-row flex-wrap justify-center items-center gap-6 sm:gap-10 p-4 rounded-2xl text-gray-400 bg-gray-900 w-full max-w-6xl">
           {LineSetData?.map((item) => (
             <div key={item.id}>
               <LineSet Icon={item.Icon} title={item.title} />
@@ -23,6 +23,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+
       <Levelup />
       <PricingCard />
     </div>
